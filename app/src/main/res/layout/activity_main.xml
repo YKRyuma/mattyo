@@ -8,23 +8,27 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="62dp"
         android:onClick="add1"
         android:text="あーね"
+        android:textSize="20sp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="263dp"
         tools:layout_editor_absoluteY="246dp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_marginEnd="62dp"
         android:onClick="add2"
-        android:text="あちゃー" />
+        android:text="あちゃー"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 </RelativeLayout>
